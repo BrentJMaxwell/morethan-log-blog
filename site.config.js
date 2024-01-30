@@ -1,28 +1,28 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Brent Maxwell's blog",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    role: "Founder",
+    bio: "I love building companies around software products that help people.",
+    email: "brent@brentmaxwell.com",
+    linkedin: "brentmaxwell",
+    github: "BrentJMaxwell",
+    instagram: "brentwahn",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `My website`,
+      href: "https://brentmaxwell.com",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "Brent's blog",
+    description: "Welcome to Brent Maxwell's blog!",
   },
 
-  // CONFIG configration (required)
+  // CONFIG configuration (required)
   link: "https://morethan-log.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
@@ -53,7 +53,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
